@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Numero 1"
+        />
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Numero 2"
+        />
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="+"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/resta"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="_"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/mult"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="*"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/divi"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="/"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+    <Button
+        android:id="@+id/modulo"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:text="%"
+        android:textSize="20sp"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:gravity="center"
+        android:textSize="130sp"
+        />
+
+</LinearLayout>
